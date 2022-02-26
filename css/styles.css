@@ -1,0 +1,81 @@
+:root {
+    --primary-text-color: #212121;
+    --accent-text-color: #2196f3;
+    --secondary-text-color: #757575;
+    --title-text-color: #fff;
+    --bcg-accent: #2f303a;
+    --bcg-accentic: #f5f4fa;
+}
+
+body {
+    background-color: #fff;
+    color: var(--primary-text-color);
+}
+
+.list {
+    list-style: none;
+}
+
+.link{
+    text-decoration: none;
+    color:  var(--primary-text-color);
+}
+
+.link:hover,
+.link:focused {
+    color: var(--accent-text-color);
+}
+
+.title {
+    color: var(--title-text-color);
+    background-color: var(--bcg-accent);
+}
+
+.btn {
+    background-color: var(--bcg-accentic);
+    cursor: pointer;
+}
+
+.btn:hover,
+.btn:focused {
+    color: var(--title-text-color);
+    background-color: var(--accent-text-color);
+}
+.features-title {
+    opacity: 0;
+}
+
+.features-headings {
+    
+}
+
+.features-description,
+.contacts
+ {
+    color: var(--secondary-text-color);
+}
+
+.team {
+background-color: var(--bcg-accentic);
+}
+
+.names {
+
+}
+
+.positions {
+    color: var(--secondary-text-color);
+}
+
+.address {
+color: var(--title-text-color);
+}
+
+.footer {
+    background-color: var(--bcg-accent);
+}
+.mail-tel {
+color: rgba(255, 255, 255, 0.6);
+}
+
+
