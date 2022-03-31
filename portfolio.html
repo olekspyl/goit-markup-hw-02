@@ -1,96 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Портфоліо</title>
-    <link rel="stylesheet" href="./css/styles.css">
-</head>
-<body>
-    <header>
-        <nav>
-            <a class="link" href="/">WebStudio</a>
-            <ul>
-                <li class="list">
-                    <a class="link" href="">Студия</a>
-                </li>
-                <li class="list">
-                    <a class="link" href="./portfolio.html"> Портфолио</a>
-                </li>
-                <li class="list">
-                    <a class="link" href=""> Контакты</a>
-                </li>
-            </ul>
-        </nav>
-        <ul>
-            <li class="list"><a class="link contacts" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li class="list"><a class="link contacts" href="tel:+380961111111">+38 096 111 11 11</a></li>
-        </ul>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Портфоліо</title>
+        <link rel="stylesheet" href="./css/styles.css"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    </head>
 
-        <ul>
-            <li class="list"><button class="btn" type="button">Все</button></li>
-            <li class="list"><button class="btn" type="button">Веб-сайты</button></li>
-            <li class="list"><button class="btn" type="button">Приложения</button></li>
-            <li class="list"><button class="btn" type="button">Дизайн</button></li>
-            <li class="list"><button class="btn" type="button">Маркетинг</button></li>
-        </ul>
-    </header>
+    <body>
 
-    <main>
-    <section>
-        <ul>
-            <li class="list"> 
-                <img src="./images/img10.jpg" alt="Веб-сайт">
-                <h3 class="features-headings">Технокряк</h3>
-            <p class="features-description">Веб-сайты</p></li>
-            <li class="list">
-                <img src="./images/img (11).jpg" alt="Постер">
-                <h3 class="features-headings">Постер New Orlean vs Golden Star</h3>
-            <p class="features-description">Дизайн</p></li>
-            <li class="list">
-                <img src="./images/img (12).jpg" alt="Приложение">
-                <h3 class="features-headings">Ресторан Seafood</h3>
-            <p class="features-description">Приложения</p></li>
-            <li class="list">
-                <img src="./images/img (13).jpg" alt="Проект">
-                <h3 class="features-headings">Проект Prime</h3>
-            <p class="features-description">Маркетинг</p></li>
-            <li class="list">
-                <img src="./images/img (14).jpg" alt="Приложение">
-                <h3 class="features-headings">Проект Boxes</h3>
-            <p class="features-description">Приложения</p></li>
-            <li class="list">
-                <img src="./images/img (15).jpg" alt="Веб-сайт">
-                <h3 class="features-headings">Inspiration has no Borders</h3>
-            <p class="features-description">Веб-сайт</p></li>
-            <li class="list">
-                <img src="./images/img (16).jpg" alt="Издание">
-                <h3 class="features-headings">Издание Limited Edition</h3>
-            <p class="features-description">Дизайн</p></li>
-            <li class="list">
-                <img src="./images/img (17).jpg" alt="Проект">
-                <h3 class="features-headings">Проект LAB</h3>
-            <p class="features-description">Маркетинг</p></li>
-            <li class="list"> 
-                <img src="./images/img (18).jpg" alt="Приложение">
-                <h3 class="features-headings">Growing Business</h3>
-            <p class="features-description">Приложения</p></li>
-        </ul>
-    </section>
-    </main>
+        <!-- header -->
+        <header class="header">
+            <nav class="header-nav">
+                <a class="link" href="/">WebStudio</a>
+                <ul class="header-list list">
+                    <li class="header-item">
+                        <a class="link" href="">Студия</a>
+                    </li>
+                    <li class="header-item">
+                        <a class="link" href="./portfolio.html"> Портфолио</a>
+                    </li>
+                    <li class="header-item">
+                        <a class="link" href=""> Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+                <ul class="header-list list">
+                    <li class="header-item"><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li class="header-item"><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                </ul>
 
+                <ul class="header-list list">
+                    <li class="header-item"><button class="btn" type="button">Все</button></li>
+                    <li class="header-item"><button class="btn" type="button">Веб-сайты</button></li>
+                    <li class="header-item"><button class="btn" type="button">Приложения</button></li>
+                    <li class="header-item"><button class="btn" type="button">Дизайн</button></li>
+                    <li class="header-item"><button class="btn" type="button">Маркетинг</button></li>
+                </ul>
+        </header>
+
+        <!-- hero -->
+        <main class="main">
+            <section class="hero">
+                <ul class="hero-list list">
+                    <li class="hero-item"> 
+                        <img src="./images/img10.jpg" alt="Веб-сайт">
+                        <h3 class="hero-item-title">Технокряк</h3>
+                        <p class="hero-after-item-title">Веб-сайты</p>
+                    </li>
+                    <li class="hero-item">
+                        <img src="./images/img (11).jpg" alt="Постер">
+                        <h3 class="hero-item-title">Постер New Orlean vs Golden Star</h3>
+                        <p class="hero-after-item-title">Дизайн</p>
+                    </li>
+                    <li class="hero-item">
+                        <img src="./images/img (12).jpg" alt="Приложение">
+                        <h3 class="hero-item-title">Ресторан Seafood</h3>
+                        <p class="hero-after-item-title">Приложения</p>
+                    </li>
+                    <li class="hero-item">
+                        <img src="./images/img (13).jpg" alt="Проект">
+                        <h3 class="hero-item-title">Проект Prime</h3>
+                        <p class="hero-after-item-title">Маркетинг</p>
+                    </li>
+                    <li class="hero-item">
+                        <img src="./images/img (14).jpg" alt="Приложение">
+                        <h3 class="hero-item-title">Проект Boxes</h3>
+                        <p class="hero-after-item-title">Приложения</p>
+                    </li>
+                    <li class="hero-item">
+                        <img src="./images/img (15).jpg" alt="Веб-сайт">
+                        <h3 class="hero-item-title">Inspiration has no Borders</h3>
+                        <p class="hero-after-item-title">Веб-сайт</p>
+                    </li>
+                    <li class="hero-item">
+                        <img src="./images/img (16).jpg" alt="Издание">
+                        <h3 class="hero-item-title">Издание Limited Edition</h3>
+                        <p class="hero-after-item-title">Дизайн</p>
+                    </li>
+                    <li class="hero-item">
+                        <img src="./images/img (17).jpg" alt="Проект">
+                        <h3 class="hero-item-title">Проект LAB</h3>
+                        <p class="hero-after-item-title">Маркетинг</p>
+                    </li>
+                    <li class="hero-item"> 
+                        <img src="./images/img (18).jpg" alt="Приложение">
+                        <h3 class="hero-item-title">Growing Business</h3>
+                        <p class="hero-after-item-title">Приложения</p>
+                    </li>
+                </ul>
+            </section>
+        </main>
+
+<!-- footer -->
         <footer class="footer">
-            <a class="link" href="/">WebStudio</a>
-            <address>
-                <ul>
-                    <li class="list address">г. Киев, пр-т Леси Украинки, 26</li>
-                    <li class="list"><a class="link mail-tel" href="mailto:info@example.com">info@example.com</a></li>
-                    <li class="list"><a class="link mail-tel" href="tel:+380991111111">+38 099 111 11 11</a></li>
+            <a class="footer-logo link" href="/">WebStudio</a>
+            <address class="address">
+                <ul class="footer-list list">
+                    <li class="footer-address-item">г. Киев, пр-т Леси Украинки, 26</li>
+                    <li class="footer-contacts-item"><a class="link mail-tel" href="mailto:info@example.com">info@example.com</a></li>
+                    <li class="footer-contacts-item"><a class="link mail-tel" href="tel:+380991111111">+38 099 111 11 11</a></li>
                 </ul>
             </address>
         </footer>
-        </body>
-        
-        </html>
-        
+    </body>
+            
+</html>
+            
