@@ -59,7 +59,9 @@ body {
         color: var(--second-header-color);
 }
 
-
+.this-item {
+    color: var(--accent-text-color);
+}
 /* hero */
 .hero {
     background-color: var(--bcg-accent-color);
@@ -86,9 +88,17 @@ body {
     text-align: center;
     border: none;
     cursor: pointer;
-    
     color: inherit;
-    background-color: var(--bcg-second-color));
+   }
+
+.btn-first {
+    color: var(--btn-color);
+    background-color: var(--bcg-btn-color);
+}
+
+.btn-second {
+color: inherit;
+background-color: var(--bcg-second-color);
 }
 
 .btn:hover, .btn:focus {
@@ -96,8 +106,7 @@ body {
     background-color: var(--bcg-btn-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
- 
-}
+ }
 
 .hero-item-title {
     font-size: 18px;
@@ -129,7 +138,7 @@ body {
 }
 
 /* doing */
-.doing-list {
+.doing-title, .team-title {
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
@@ -144,16 +153,17 @@ body {
     letter-spacing: 0.03em;
 }
 
+.team-item {
+    background-color: var(--bcg-first-color);
+}
 
 .team-item-title {
     font-size: 16px;
     font-weight: 500;
-    background-color: var(--bcg-first-color);
 }
 
 .team-after-item-title {
     color: var(--first-text-color);
-    background-color: var(--bcg-first-color);
 }
 
 /* footer */
@@ -176,4 +186,9 @@ color: var(--first-title-color);
 
 .footer-mail, .footer-tel {
     font-style: normal;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-mail:hover, .footer-tel:hover, .footer-mail:focus, .footer-tel:focus {
+    color: var(--accent-text-color);
 }
